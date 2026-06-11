@@ -10,7 +10,7 @@ class Circle {
     void setRadius(float r);
     void calc_area();
 };
-
+// Scope Resource Operator (::) is used to define the member function outside the class
 void Circle::setRadius(float r){
     rad = r;
 }
