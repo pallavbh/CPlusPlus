@@ -80,10 +80,10 @@ Replace `helloworld.cpp` with any program filename you want to run.
 
 ## 👨‍💻 Author
 
-**Pallav Bhattarai**
-**BCA-IT**
-**2nd Semester**
-**CITE** (College of Information Technology and Engineering).
-**Purbanchal University**
+- **Pallav Bhattarai**
+- **BCA-IT**
+- **2nd Semester**
+- **CITE** (College of Information Technology and Engineering).
+- **Purbanchal University**
 
 > "The journey of a thousand programs begins with a single Hello World."
