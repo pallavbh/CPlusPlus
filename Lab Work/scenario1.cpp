@@ -1,3 +1,27 @@
+/*
+================================================================================
+SCENARIO 1: SMART CALCULATOR
+================================================================================
+
+PROBLEM STATEMENT:
+Develop a calculator program that can perform addition on different types of inputs.
+
+REQUIREMENTS:
+1. Create overloaded functions named add() for:
+   - Two integers
+   - Two floating-point numbers
+   - Three integers
+2. Create an inline function square() that returns the square of a number
+3. Display the result of each operation
+
+CONCEPTS NEEDED TO IMPLEMENT:
+- Function Overloading
+- Inline Functions
+- Basic Arithmetic Operations
+
+================================================================================
+*/
+
 // Scenario 1: Smart Calculator
 #include <iostream>
 using namespace std;

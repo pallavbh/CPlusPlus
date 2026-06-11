@@ -1,3 +1,27 @@
+/*
+================================================================================
+SCENARIO 2: EMPLOYEE SALARY MANAGEMENT
+================================================================================
+
+PROBLEM STATEMENT:
+A company wants a salary calculation system for different categories of employees.
+
+REQUIREMENTS:
+1. Overload a function calculateSalary() for:
+   - Full-time employee (basic salary)
+   - Employee with bonus
+   - Employee with bonus and overtime
+2. Create an inline function taxDeduction() that calculates 10% tax
+3. Display gross salary and net salary
+
+CONCEPTS NEEDED TO IMPLEMENT:
+- Function Overloading with different parameter lists
+- Inline Functions
+- Real-world business application
+
+================================================================================
+*/
+
 //Employee Salary Manaagement
 
 #include <iostream>

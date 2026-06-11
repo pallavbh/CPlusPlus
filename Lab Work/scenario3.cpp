@@ -1,3 +1,27 @@
+/*
+================================================================================
+SCENARIO 3: STUDENT RESULT PROCESSING
+================================================================================
+
+PROBLEM STATEMENT:
+Create a result-processing system for students.
+
+REQUIREMENTS:
+1. Overload a function calculateAverage() for:
+   - Two subjects
+   - Three subjects
+   - Five subjects
+2. Create an inline function isPass() that returns true if average >= 40
+3. Display average marks and pass/fail status
+
+CONCEPTS NEEDED TO IMPLEMENT:
+- Function Overloading with different parameter lists
+- Inline Functions
+- Real-world business application
+
+================================================================================
+*/
+
 #include <iostream>
 using namespace std;
 

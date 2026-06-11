@@ -1,19 +1,17 @@
-# C++ Programming Repository
+# 📘 C++ Programming Repository
 
 A comprehensive collection of C++ programs and learning materials from the second semester coursework. This repository documents the progression through fundamental and intermediate C++ concepts.
 
-## 📁 Repository Structure
+## 📂 Programs Included
 
-### [Class and Objective](./Class%20and%20Objective/)
-Explores object-oriented programming concepts in C++:
+### Class and Objective - OOP Concepts
 
 | Program | Description |
 |---------|-------------|
 | functionInsideTheClass.cpp | Member functions defined within the class definition (inline definition) |
 | functionOutsideTheClass.cpp | Member functions declared in class but defined outside using scope resolution operator |
 
-### [Function](./Function/)
-Comprehensive coverage of C++ function concepts:
+### Function - Function Concepts
 
 | Program | Description |
 |---------|-------------|
@@ -24,17 +22,15 @@ Comprehensive coverage of C++ function concepts:
 | functionThatTakesTwoInputs.cpp | Practical example of functions accepting multiple parameters |
 | Q1.cpp | Function practice question/exercise |
 
-### [Lab Work](./Lab%20Work/)
-Practical lab exercises and scenarios:
+### Lab Work - Practical Exercises
 
 | Program | Description |
 |---------|-------------|
-| scenario1.cpp | First lab scenario - practical application of learned concepts |
-| scenario2.cpp | Second lab scenario - intermediate problem-solving exercise |
-| scenario3.cpp | Third lab scenario - advanced lab exercise |
+| scenario1.cpp | **Smart Calculator** - Function overloading for addition operations + inline square function |
+| scenario2.cpp | **Employee Salary Management** - Salary calculation system with bonus and overtime |
+| scenario3.cpp | **Student Result Processing** - Grade averaging system with pass/fail status |
 
-### [Others](./Others/)
-Miscellaneous C++ programs covering various topics:
+### Others - Miscellaneous Programs
 
 | Program | Description |
 |---------|-------------|
@@ -49,32 +45,45 @@ Miscellaneous C++ programs covering various topics:
 | ClassTypeToBasicType.cpp | Type conversion between class types and basic data types |
 | primenumberchecking.cpp | Algorithm to check if a number is prime or composite |
 
-## 🎯 Topics Covered
+## 🧠 Concepts Covered
 
-- **Basic I/O** - Input/output operations
-- **Functions** - Definition, overloading, and inline functions
-- **Classes & Objects** - Object-oriented programming fundamentals
-- **Operators** - Arithmetic, bitwise, and ternary operators
-- **Type Conversion** - Converting between different data types
+- **Basic I/O** - Input/output operations using `cin` and `cout`
+- **Functions** - Definition, overloading, default arguments, and inline functions
+- **Classes & Objects** - Member functions, scope resolution operator, and OOP fundamentals
+- **Operators** - Arithmetic, bitwise, ternary, and logical operators
+- **Type Conversion** - Converting between different data types and class types
 - **Algorithms** - Prime checking and other computational problems
+- **Formatting** - Output stream manipulators for formatted display
 
-## 💻 Compilation
+## �️ How to Compile & Run
 
-To compile any C++ file:
+Make sure you have a C++ compiler installed (e.g., **g++** via MinGW on Windows or GCC on Linux/macOS).
 
-```bash
-g++ -o output_name filename.cpp
-./output_name
+```
+g++ helloworld.cpp -o helloworld
+./helloworld
 ```
 
-Or with additional flags:
+Replace `helloworld.cpp` with any program filename you want to run.
 
-```bash
-g++ -Wall -std=c++11 -o output_name filename.cpp
-```
+> **On Windows**, you can also open these files in **VS Code** and run them using the Code Runner extension or the built-in terminal.
 
-## 📝 Notes
+## � Notes
 
 - All files are part of the second semester curriculum
-- Programs are designed for learning purposes
+- Programs are designed for learning purposes and beginner-level practice
 - Comments and documentation are included where applicable
+- Files can be compiled on Windows, Linux, and macOS with a compatible C++ compiler
+- Default arguments must be specified from right to left in function definitions
+- Overloaded functions must differ in the number or type of their parameters
+- `system("pause")` may be used in some programs; remove it on Linux/macOS systems
+
+## 👨‍💻 Author
+
+**Pallav Bhattarai**
+**BCA-IT**
+**2nd Semester**
+**CITE** (College of Information Technology and Engineering).
+**Purbanchal University**
+
+> "The journey of a thousand programs begins with a single Hello World."
