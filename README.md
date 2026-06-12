@@ -1,53 +1,99 @@
-CPlusPlus — Class Examples and Labs
-=================================
+# 📘 C++ Programming Repository
 
-A small collection of C++ example programs, lab exercises, and practice files used in class.
+A comprehensive collection of C++ programs and learning materials from the second semester coursework. This repository documents the progression through fundamental and intermediate C++ concepts.
 
-Repository layout
+## 📂 Programs Included
 
-**Class and Objective/**
-- `functionInsideTheClass.cpp` — Methods defined inside class definitions
-- `functionOutsideTheClass.cpp` — Methods defined outside class definitions
-- `staticDataMember.cpp` — Static member variables in classes
-- `staticDataMember2.cpp` — Additional static member examples
+### Class and Objective - OOP Concepts
 
-**Function/**
-- `defaultArgument.cpp` — Functions with default parameter values
-- `functionOverloading.cpp` — Overloaded function examples
-- `InlineFunction.cpp` — Inline function optimization
-- `inlinefunction2.cpp` — Additional inline function examples
-- `Q1.cpp` — Function exercise/question
+| Program | Description |
+|---------|-------------|
+| functionInsideTheClass.cpp | Member functions defined within the class definition (inline definition) |
+| functionOutsideTheClass.cpp | Member functions declared in class but defined outside using scope resolution operator |
+| staticDataMember.cpp | Static member variables in classes - shared across all instances |
+| staticDataMember2.cpp | Additional examples of static members and their usage |
 
-**Lab Work/**
-- `scenario1.cpp` — Lab scenario 1
-- `scenario2.cpp` — Lab scenario 2
-- `scenario3.cpp` — Lab scenario 3
+### Function - Function Concepts
 
-**Others/**
-- `bitWiseOperator.cpp` — Bitwise operations (AND, OR, XOR, shifts)
-- `calculator.cpp` — Simple calculator program
-- `celciustofarenhiet.cpp` — Temperature conversion utility
-- `ClassTypeToBasicType.cpp` — Type casting examples
-- `functionThatTakesTwoInputs.cpp` — Multi-parameter function example
-- `hello.cpp` — Classic Hello World program
-- `integerFromUser.cpp` — User input handling
-- `manipulator.cpp` — I/O stream manipulators
-- `primenumberchecking.cpp` — Prime number validation
-- `productOfTwoNUm.cpp` — Simple arithmetic operation
-- `ternaryOperator.cpp` — Ternary conditional operator examples
+| Program | Description |
+|---------|-------------|
+| defaultArgument.cpp | Functions with default parameter values - parameters have fallback values if not provided |
+| functionOverloading.cpp | Multiple functions with the same name but different parameters or return types |
+| InlineFunction.cpp | Inline functions for optimization - function body replaces the function call |
+| inlinefunction2.cpp | Additional examples and use cases of inline function optimization |
+| Q1.cpp | Function practice question/exercise |
 
-Build & run (Windows)
-- **Using g++ (MinGW/WSL):**
-	- Compile single file: g++ -std=c++17 -O2 -Wall -o program "path/to/file.cpp"
-	- Run: .\program
-- **Using MSVC (Developer Command Prompt):**
-	- Compile: cl /EHsc "path\to\file.cpp"
-	- Run: program.exe
+### Lab Work - Practical Exercises
 
-Notes
-- Files are standalone examples — compile individual .cpp files as needed.
-- Tell me which file or section you'd like emphasized or any extra instructions to add.
+| Program | Description |
+|---------|-------------|
+| scenario1.cpp | Lab exercise scenario 1 |
+| scenario2.cpp | Lab exercise scenario 2 |
+| scenario3.cpp | Lab exercise scenario 3 |
 
----
+### Others - Miscellaneous Programs
 
-Last updated: 2026-06-12
+| Program | Description |
+|---------|-------------|
+| hello.cpp | Classic "Hello, World!" program - first C++ program |
+| integerFromUser.cpp | Basic user input handling - reading integers from console |
+| productOfTwoNUm.cpp | Simple program that multiplies two numbers |
+| calculator.cpp | Basic calculator program with arithmetic operations |
+| celciustofarenhiet.cpp | Temperature conversion utility - convert Celsius to Fahrenheit |
+| ternaryOperator.cpp | Demonstrates conditional ternary operator (condition ? true_value : false_value) |
+| bitWiseOperator.cpp | Bitwise operations including AND, OR, XOR, NOT, left shift, and right shift |
+| manipulator.cpp | Output stream manipulators (setw, setprecision, setfill, etc.) for formatted output |
+| ClassTypeToBasicType.cpp | Type conversion between class types and basic data types |
+| primenumberchecking.cpp | Algorithm to check if a number is prime or composite |
+| functionThatTakesTwoInputs.cpp | Practical example of functions accepting multiple parameters |
+
+## 🧠 Concepts Covered
+
+- **Basic I/O** - Input/output operations using `cin` and `cout`
+- **Functions** - Definition, overloading, default arguments, and inline functions
+- **Classes & Objects** - Member functions, scope resolution operator, static members, and OOP fundamentals
+- **Operators** - Arithmetic, bitwise, ternary, and logical operators
+- **Type Conversion** - Converting between different data types and class types
+- **Algorithms** - Prime checking and other computational problems
+- **Formatting** - Output stream manipulators for formatted display
+
+## 🛠️ How to Compile & Run
+
+Make sure you have a C++ compiler installed (e.g., **g++** via MinGW on Windows or GCC on Linux/macOS).
+
+```bash
+g++ filename.cpp -o filename
+./filename
+```
+
+Replace `filename.cpp` with any program filename you want to run.
+
+> **On Windows**, you can also open these files in **VS Code** and run them using the Code Runner extension or the built-in terminal.
+
+### Using g++ (MinGW/WSL):
+- Compile single file: `g++ -std=c++17 -O2 -Wall -o program "path/to/file.cpp"`
+- Run: `.\program`
+
+### Using MSVC (Developer Command Prompt):
+- Compile: `cl /EHsc "path\to\file.cpp"`
+- Run: `program.exe`
+
+## 📝 Notes
+
+- All files are part of the second semester curriculum
+- Programs are designed for learning purposes and beginner-level practice
+- Comments and documentation are included where applicable
+- Files can be compiled on Windows, Linux, and macOS with a compatible C++ compiler
+- Default arguments must be specified from right to left in function definitions
+- Overloaded functions must differ in the number or type of their parameters
+- `system("pause")` may be used in some programs; remove it on Linux/macOS systems
+
+## 👨‍💻 Author
+
+- **Pallav Bhattarai**
+- **BCA-IT**
+- **2nd Semester**
+- **CITE** (College of Information Technology and Engineering)
+- **Purbanchal University**
+
+> "The journey of a thousand programs begins with a single Hello World."
