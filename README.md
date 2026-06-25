@@ -1,4 +1,4 @@
-# 📘 C++ Programming Repository
+﻿# 📘 C++ Programming Repository
 
 A comprehensive collection of C++ programs and learning materials from the second semester coursework. This repository documents the progression through fundamental and intermediate C++ concepts.
 
@@ -8,19 +8,24 @@ A comprehensive collection of C++ programs and learning materials from the secon
 
 | Program | Description |
 |---------|-------------|
+| accessingClashMember.cpp | Example showing how to access class members and navigate nested class relationships |
 | functionInsideTheClass.cpp | Member functions defined within the class definition (inline definition) |
-| functionOutsideTheClass.cpp | Member functions declared in class but defined outside using scope resolution operator |
+| functionOutsideTheClass.cpp | Member functions declared in the class and defined outside using scope resolution operator |
+| nestingofMemberFunction.cpp | Nested member function calls and one member invoking another |
+| nestingofMemberFunction2.cpp | Additional nested member function examples |
 | staticDataMember.cpp | Static member variables in classes - shared across all instances |
-| staticDataMember2.cpp | Additional examples of static members and their usage |
+| staticDataMember2.cpp | Additional examples of static member variables and usage |
+| staticDataMemberCw.cpp | Coursework example demonstrating static member variables |
+| staticMemberFunction.cpp | Static member function examples and usage |
 
 ### Function - Function Concepts
 
 | Program | Description |
 |---------|-------------|
 | defaultArgument.cpp | Functions with default parameter values - parameters have fallback values if not provided |
-| functionOverloading.cpp | Multiple functions with the same name but different parameters or return types |
-| InlineFunction.cpp | Inline functions for optimization - function body replaces the function call |
-| inlinefunction2.cpp | Additional examples and use cases of inline function optimization |
+| functionOverloading.cpp | Multiple functions with the same name but different parameters |
+| InlineFunction.cpp | Inline functions for optimization |
+| inlinefunction2.cpp | Additional examples and use cases of inline functions |
 | Q1.cpp | Function practice question/exercise |
 
 ### Lab Work - Practical Exercises
@@ -35,8 +40,8 @@ A comprehensive collection of C++ programs and learning materials from the secon
 
 | Program | Description |
 |---------|-------------|
-| hello.cpp | Classic "Hello, World!" program - first C++ program |
-| integerFromUser.cpp | Basic user input handling - reading integers from console |
+| hello.cpp | Classic "Hello, World!" program |
+| integerFromUser.cpp | Basic user input handling - reading integers from the console |
 | productOfTwoNUm.cpp | Simple program that multiplies two numbers |
 | calculator.cpp | Basic calculator program with arithmetic operations |
 | celciustofarenhiet.cpp | Temperature conversion utility - convert Celsius to Fahrenheit |
@@ -47,11 +52,13 @@ A comprehensive collection of C++ programs and learning materials from the secon
 | primenumberchecking.cpp | Algorithm to check if a number is prime or composite |
 | functionThatTakesTwoInputs.cpp | Practical example of functions accepting multiple parameters |
 
+> Note: Some folders also contain compiled `.exe` files generated during local testing.
+
 ## 🧠 Concepts Covered
 
 - **Basic I/O** - Input/output operations using `cin` and `cout`
 - **Functions** - Definition, overloading, default arguments, and inline functions
-- **Classes & Objects** - Member functions, scope resolution operator, static members, and OOP fundamentals
+- **Classes & Objects** - Member functions, scope resolution operator, static members, nested functions, and OOP fundamentals
 - **Operators** - Arithmetic, bitwise, ternary, and logical operators
 - **Type Conversion** - Converting between different data types and class types
 - **Algorithms** - Prime checking and other computational problems
@@ -72,7 +79,7 @@ Replace `filename.cpp` with any program filename you want to run.
 
 ### Using g++ (MinGW/WSL):
 - Compile single file: `g++ -std=c++17 -O2 -Wall -o program "path/to/file.cpp"`
-- Run: `.\program`
+- Run: `./program`
 
 ### Using MSVC (Developer Command Prompt):
 - Compile: `cl /EHsc "path\to\file.cpp"`
