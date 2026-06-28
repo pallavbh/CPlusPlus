@@ -6,17 +6,22 @@ A comprehensive collection of C++ programs and learning materials from the secon
 
 ### Class and Objective - OOP Concepts
 
-| Program | Description |
-|---------|-------------|
-| accessingClashMember.cpp | Example showing how to access class members and navigate nested class relationships |
-| functionInsideTheClass.cpp | Member functions defined within the class definition (inline definition) |
-| functionOutsideTheClass.cpp | Member functions declared in the class and defined outside using scope resolution operator |
-| nestingofMemberFunction.cpp | Nested member function calls and one member invoking another |
-| nestingofMemberFunction2.cpp | Additional nested member function examples |
-| staticDataMember.cpp | Static member variables in classes - shared across all instances |
-| staticDataMember2.cpp | Additional examples of static member variables and usage |
-| staticDataMemberCw.cpp | Coursework example demonstrating static member variables |
-| staticMemberFunction.cpp | Static member function examples and usage |
+| File | Description |
+|------|-------------|
+| accessingClashMember.cpp | Demonstrates access to class members and basic class usage |
+| accessSpecifierPrivate.cpp | Shows how private members are accessed only within the class |
+| accessSpecifierProtcted.cpp | Explains protected access in inheritance-related scenarios |
+| accessSpecifierPublic.cpp | Demonstrates public members that are accessible from outside the class |
+| exampleThisPointer.cpp | Example program using the this pointer |
+| functionInsideTheClass.cpp | Member function defined inside the class body |
+| functionOutsideTheClass.cpp | Member function declared inside the class and defined outside |
+| nestingofMemberFunction.cpp | Example of one member function calling another |
+| nestingofMemberFunction2.cpp | Additional nested member function example |
+| staticDataMember.cpp | Example of static data members in a class |
+| staticDataMember2.cpp | Another example of static data member usage |
+| staticDataMemberCw.cpp | Coursework-style example on static data members |
+| staticMemberFunction.cpp | Example of static member functions |
+| thisPointer.cpp | Simple demonstration of the this pointer |
 
 ### Function - Function Concepts
 
