@@ -6,13 +6,14 @@ A comprehensive collection of C++ programs and learning materials from the secon
 
 ### Class and Objective - OOP Concepts
 
-| File | Description |
+| Program | Description |
 |------|-------------|
 | accessingClashMember.cpp | Demonstrates access to class members and basic class usage |
 | accessSpecifierPrivate.cpp | Shows how private members are accessed only within the class |
 | accessSpecifierProtcted.cpp | Explains protected access in inheritance-related scenarios |
 | accessSpecifierPublic.cpp | Demonstrates public members that are accessible from outside the class |
-| exampleThisPointer.cpp | Example program using the this pointer |
+| arrayofObject.cpp | Example of working with arrays of class objects |
+| exampleThisPointer.cpp | Example program using the `this` pointer |
 | functionInsideTheClass.cpp | Member function defined inside the class body |
 | functionOutsideTheClass.cpp | Member function declared inside the class and defined outside |
 | nestingofMemberFunction.cpp | Example of one member function calling another |
@@ -21,7 +22,7 @@ A comprehensive collection of C++ programs and learning materials from the secon
 | staticDataMember2.cpp | Another example of static data member usage |
 | staticDataMemberCw.cpp | Coursework-style example on static data members |
 | staticMemberFunction.cpp | Example of static member functions |
-| thisPointer.cpp | Simple demonstration of the this pointer |
+| thisPointer.cpp | Simple demonstration of the `this` pointer |
 
 ### Function - Function Concepts
 
@@ -50,9 +51,9 @@ A comprehensive collection of C++ programs and learning materials from the secon
 | productOfTwoNUm.cpp | Simple program that multiplies two numbers |
 | calculator.cpp | Basic calculator program with arithmetic operations |
 | celciustofarenhiet.cpp | Temperature conversion utility - convert Celsius to Fahrenheit |
-| ternaryOperator.cpp | Demonstrates conditional ternary operator (condition ? true_value : false_value) |
+| ternaryOperator.cpp | Demonstrates conditional ternary operator (`condition ? true_value : false_value`) |
 | bitWiseOperator.cpp | Bitwise operations including AND, OR, XOR, NOT, left shift, and right shift |
-| manipulator.cpp | Output stream manipulators (setw, setprecision, setfill, etc.) for formatted output |
+| manipulator.cpp | Output stream manipulators (`setw`, `setprecision`, `setfill`, etc.) for formatted output |
 | ClassTypeToBasicType.cpp | Type conversion between class types and basic data types |
 | primenumberchecking.cpp | Algorithm to check if a number is prime or composite |
 | functionThatTakesTwoInputs.cpp | Practical example of functions accepting multiple parameters |

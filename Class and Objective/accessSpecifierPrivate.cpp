@@ -5,7 +5,7 @@ class BankAccount{
     private:
         double balance;  //Private Data Member
     public:
-        BankAccount(double initialBalance){
+        BankAccount(double initialBalance){  //Constructor
             balance = initialBalance;
         }
             double getBalance(){    // Public function to access private data
