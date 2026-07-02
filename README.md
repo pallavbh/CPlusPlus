@@ -2,7 +2,13 @@
 
 A comprehensive collection of C++ programs and learning materials from the second semester coursework. This repository documents the progression through fundamental and intermediate C++ concepts.
 
-## 📂 Programs Included
+## � Repository Structure
+- `Class and Objective/` — object-oriented programming examples and class-based concepts
+- `Function/` — function-specific examples, including overloading and inline functions
+- `Lab Work/` — lab exercise scenarios for practical learning
+- `Others/` — miscellaneous small programs and utility examples
+
+## �📂 Programs Included
 
 ### Class and Objective - OOP Concepts
 
@@ -23,6 +29,8 @@ A comprehensive collection of C++ programs and learning materials from the secon
 | staticDataMemberCw.cpp | Coursework-style example on static data members |
 | staticMemberFunction.cpp | Example of static member functions |
 | thisPointer.cpp | Simple demonstration of the `this` pointer |
+| friendClass.cpp | Demonstrates how friend classes access private members |
+| friendFunction.cpp | Demonstrates friend functions and access control |
 
 ### Function - Function Concepts
 
@@ -58,7 +66,7 @@ A comprehensive collection of C++ programs and learning materials from the secon
 | primenumberchecking.cpp | Algorithm to check if a number is prime or composite |
 | functionThatTakesTwoInputs.cpp | Practical example of functions accepting multiple parameters |
 
-> Note: Some folders also contain compiled `.exe` files generated during local testing.
+> Note: Some folders also contain compiled `.exe` files generated during local testing; source `.cpp` files are listed above.
 
 ## 🧠 Concepts Covered
 
