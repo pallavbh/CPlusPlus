@@ -1,18 +1,22 @@
 #include <iostream>
 using namespace std;
+
+// Circle class with member functions declared inside the class
+// and defined outside using the scope resolution operator.
 class Circle {
     private:
-    //Data Members
+    // Data member for storing circle radius
     float rad;
 
     public:
-    //Member Function
+    // Function declarations
     void setRadius(float r);
     void calc_area();
 };
-// Scope Resource Operator (::) is used to define the member function outside the class
+
+// Scope resolution operator (::) defines member functions outside the class body.
 void Circle::setRadius(float r){
-    rad = r;
+    rad = r;  // Assign the parameter to the class member
 }
 
 void Circle::calc_area(){
@@ -26,7 +30,8 @@ int main(){
     float r;
     cout << "Enter the radius of the circle: ";
     cin >> r;
-    c.setRadius(r);
-    c.calc_area();
+
+    c.setRadius(r); // Set the circle radius using the member function
+    c.calc_area();  // Calculate and print the area
     return 0;
 }

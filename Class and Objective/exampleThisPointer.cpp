@@ -1,12 +1,14 @@
 #include <iostream>
 using namespace std;
 
+// Demonstrates the use of the "this" pointer to distinguish member variables.
 class A {
-    int a;
+    int a;  // Member variable
 
 public:
     void setData(int a) {
-        this-> a = a;
+        // Use this->a to refer to the class member variable, not the parameter
+        this->a = a;
     }
 
     void getData() {
@@ -18,10 +20,10 @@ int main() {
     // Create an object of class A
     A obj;
 
-    // Set the value of a using the member function
+    // Set the member variable using the setter method
     obj.setData(10);
 
-    // Display the value of a
+    // Display the stored value
     obj.getData();
 
     return 0;

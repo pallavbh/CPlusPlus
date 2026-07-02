@@ -29,10 +29,11 @@
 #include <cstring> // Required for strcpy
 using namespace std;
 
+// Demonstrates a class with character arrays and member functions.
 class Dog {
 public:
-    char color[50];
-    char breed[50];
+    char color[50];  // Array to store the dog's color
+    char breed[50];  // Array to store the dog's breed
 
     void printColor() {
         cout << "Color: " << color << endl;
@@ -45,11 +46,11 @@ public:
 int main() {
     Dog d1;
     
-    // Use strcpy to copy strings into character arrays
+    // Copy string literals into the character arrays safely
     strcpy(d1.color, "white");
     strcpy(d1.breed, "Labrador");
 
-    // Call methods using the object d1
+    // Call member functions to display the values
     d1.printColor();
     d1.printBreed();
 
