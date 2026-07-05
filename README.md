@@ -2,12 +2,14 @@
 
 A comprehensive collection of C++ programs and learning materials from the second semester coursework. This repository documents the progression through fundamental and intermediate C++ concepts.
 
-## � Repository Structure
-- `Class and Objective/` — object-oriented programming examples and class-based concepts- `Constructor and Destructor/` — constructor and destructor examples- `Function/` — function-specific examples, including overloading and inline functions
+## 📁 Repository Structure
+- `Class and Objective/` — object-oriented programming examples and class-based concepts
+- `Constructor and Destructor/` — constructor and destructor examples
+- `Function/` — function-specific examples, including overloading and inline functions
 - `Lab Work/` — lab exercise scenarios for practical learning
 - `Others/` — miscellaneous small programs and utility examples
 
-## �📂 Programs Included
+## 📂 Programs Included
 
 ### Class and Objective - OOP Concepts
 
@@ -46,6 +48,13 @@ A comprehensive collection of C++ programs and learning materials from the secon
 ### Constructor and Destructor - Object Lifecycle Management
 
 This folder contains examples related to constructors and destructors, which are special member functions that manage object creation and destruction.
+
+| Program | Description |
+|---------|-------------|
+| defaultConstructor.cpp | Example of a class with a default constructor |
+| parameterizedConstructor.cpp | Example of constructors that take parameters |
+| copyConstructor.cpp | Example of a copy constructor for object copying |
+| moveConstructor.cpp | Example of a move constructor for efficient resource transfer |
 
 ### Lab Work - Practical Exercises
 
