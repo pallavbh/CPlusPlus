@@ -3,8 +3,7 @@
 A comprehensive collection of C++ programs and learning materials from the second semester coursework. This repository documents the progression through fundamental and intermediate C++ concepts.
 
 ## � Repository Structure
-- `Class and Objective/` — object-oriented programming examples and class-based concepts
-- `Function/` — function-specific examples, including overloading and inline functions
+- `Class and Objective/` — object-oriented programming examples and class-based concepts- `Constructor and Destructor/` — constructor and destructor examples- `Function/` — function-specific examples, including overloading and inline functions
 - `Lab Work/` — lab exercise scenarios for practical learning
 - `Others/` — miscellaneous small programs and utility examples
 
@@ -24,6 +23,8 @@ A comprehensive collection of C++ programs and learning materials from the secon
 | functionOutsideTheClass.cpp | Member function declared inside the class and defined outside |
 | nestingofMemberFunction.cpp | Example of one member function calling another |
 | nestingofMemberFunction2.cpp | Additional nested member function example |
+| passingObjectToFunctionPassByValue.cpp | Demonstrates passing objects to functions by value |
+| passingObjectToFunctionPassByConstReference.cpp | Demonstrates passing objects to functions by const reference |
 | staticDataMember.cpp | Example of static data members in a class |
 | staticDataMember2.cpp | Another example of static data member usage |
 | staticDataMemberCw.cpp | Coursework-style example on static data members |
@@ -41,6 +42,10 @@ A comprehensive collection of C++ programs and learning materials from the secon
 | InlineFunction.cpp | Inline functions for optimization |
 | inlinefunction2.cpp | Additional examples and use cases of inline functions |
 | Q1.cpp | Function practice question/exercise |
+
+### Constructor and Destructor - Object Lifecycle Management
+
+This folder contains examples related to constructors and destructors, which are special member functions that manage object creation and destruction.
 
 ### Lab Work - Practical Exercises
 
@@ -72,8 +77,11 @@ A comprehensive collection of C++ programs and learning materials from the secon
 
 - **Basic I/O** - Input/output operations using `cin` and `cout`
 - **Functions** - Definition, overloading, default arguments, and inline functions
-- **Classes & Objects** - Member functions, scope resolution operator, static members, nested functions, and OOP fundamentals
+- **Classes & Objects** - Member functions, scope resolution operator, static members, nested functions, constructors, destructors, and OOP fundamentals
+- **Object Passing** - Pass by value vs. pass by const reference
+- **Access Control** - Private, public, and protected access specifiers; friend classes and functions
 - **Operators** - Arithmetic, bitwise, ternary, and logical operators
+- **The `this` Pointer** - Using the this pointer to reference object instances
 - **Type Conversion** - Converting between different data types and class types
 - **Algorithms** - Prime checking and other computational problems
 - **Formatting** - Output stream manipulators for formatted display
