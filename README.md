@@ -45,6 +45,16 @@ A comprehensive collection of C++ programs and learning materials from the secon
 | inlinefunction2.cpp | Additional examples and use cases of inline functions |
 | Q1.cpp | Function practice question/exercise |
 
+### Operator Overloading - Overloading Operators
+
+| Program | Description |
+|---------|-------------|
+| operatorOverloading.cpp | Demonstrates overloading of operators for user-defined types |
+| operatorOverloading_1.cpp | Additional operator overloading example (Complex numbers) |
+| operatorOverloadingUnary_BInary.cpp | Example of unary and binary operator overloading |
+| operatorOverloadingUnary_BInary2.cpp | Additional unary/binary operator overloading example |
+| functionOverloading.cpp | Example of function/operator overloading placed in this folder |
+
 ### Constructor and Destructor - Object Lifecycle Management
 
 This folder contains examples related to constructors and destructors, which are special member functions that manage object creation and destruction.
