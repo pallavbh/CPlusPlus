@@ -1,0 +1,2 @@
+Task 1: Logging from function 1.
+Task 2: Logging from function 2.
