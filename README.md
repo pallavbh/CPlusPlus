@@ -3,14 +3,46 @@
 A comprehensive collection of C++ programs and learning materials from the second semester coursework. This repository documents the progression through fundamental and intermediate C++ concepts.
 
 ## 📁 Repository Structure
+- `Assignment1_LabQuestions/` — lab exercises covering arrays, pointers, constructors, destructors, friends, and object-oriented basics
 - `Class and Objective/` — object-oriented programming examples and class-based concepts
 - `Constructor and Destructor/` — constructor and destructor examples
 - `Function/` — function-specific examples, including overloading and inline functions
-- `Operator Overloading/` — examples demonstrating unary and binary operator overloading
+- `FunctionVirtual and Polymorphism/` — examples of overriding and runtime polymorphism using virtual functions
+- `Operator Overloading/` — examples demonstrating unary, binary, and constructor-based operator overloading
 - `Lab Work/` — lab exercise scenarios for practical learning
 - `Others/` — miscellaneous small programs and utility examples
 
 ## 📂 Programs Included
+
+### Assignment1_LabQuestions - Lab Exercises
+
+| Program | Description |
+|---------|-------------|
+| lab1_ArrayAndPointer.cpp | Array and pointer basics |
+| lab2_NewAndDelete.cpp | Dynamic memory allocation using new and delete |
+| lab3_ConstAndEnum.cpp | Use of const and enum |
+| lab4_FunctionOverloadingAndDefaultArguments.cpp | Function overloading and default arguments |
+| lab5_InlineFunction.cpp | Inline function example |
+| lab6_ClassAndAccessSpecifier.cpp | Class declaration and access specifiers |
+| lab7_NestingOfMemberFunction.cpp | Member functions calling one another |
+| lab8_ArrayOfObjectAndThisPointer.cpp | Arrays of objects and the this pointer |
+| lab9_PassingObjectsByReference.cpp | Passing objects by reference |
+| lab10_ReturningObject.cpp | Returning objects from functions |
+| lab11_StaticDataMemberAndFunction.cpp | Static data members and static member functions |
+| lab12_FriendFunction.cpp | Friend function example |
+| lab13_FriendClass.cpp | Friend class example |
+| lab14_StringClassBasic.cpp | Basic string class example |
+| lab15_CopyConstructorAndDeepCopy.cpp | Copy constructor and deep copy |
+| lab16_FriendFunctionForOperatorOverloading.cpp | Friend function used for operator overloading |
+| lab17_ReturningObjectByValueVsRefrence.cpp | Returning objects by value versus by reference |
+| lab18_DefaultAndParameterizedConstructor.cpp | Default and parameterized constructors |
+| lab19_CopyConstructor.cpp | Copy constructor example |
+| lab20-OverloadedConstructors.cpp | Multiple overloaded constructors |
+| lab21_Destructor.cpp | Destructor example |
+| lab22_ConstructorInitializerList.cpp | Constructor initializer lists |
+| lab23_ConstructionAndDestructionOrdering.cpp | Constructor/destructor order demonstration |
+| lab24_ComplexClassWithConstructorsAndDestructor.cpp | Complex class using constructors and destructor |
+| lab25_SingletonPatternWithStaticMembers.cpp | Singleton pattern using static members |
 
 ### Class and Objective - OOP Concepts
 
@@ -46,18 +78,27 @@ A comprehensive collection of C++ programs and learning materials from the secon
 | inlinefunction2.cpp | Additional examples and use cases of inline functions |
 | Q1.cpp | Function practice question/exercise |
 
+### FunctionVirtual and Polymorphism - Virtual Functions
+
+| Program | Description |
+|---------|-------------|
+| functionOverriding.cpp | Example of function overriding in inheritance |
+| functionOverrridingPtr.cpp | Function overriding using pointers |
+| virtualFunctionOverriding.cpp | Demonstrates virtual function overriding and polymorphic behavior |
+
 ### Operator Overloading
 
 | Program | Description |
 |---------|-------------|
+| classToBasicTypeConversion.cpp | Conversion from a class type to a basic type |
+| functionOverloading.cpp | Example of function/operator overloading placed in this folder |
 | operatorOverloading.cpp | Demonstrates overloading of operators for user-defined types |
+| operatorOverloadingUsingConstructor.cpp | Operator overloading using constructors |
 | operatorOverloading_1.cpp | Additional operator overloading example (Complex numbers) |
 | operatorOverloadingUnary_BInary.cpp | Example of unary and binary operator overloading |
 | operatorOverloadingUnary_BInary2.cpp | Additional unary/binary operator overloading example |
-| functionOverloading.cpp | Example of function/operator overloading placed in this folder |
 
 ### Constructor and Destructor
-
 
 | Program | Description |
 |---------|-------------|
@@ -65,6 +106,7 @@ A comprehensive collection of C++ programs and learning materials from the secon
 | parameterizedConstructor.cpp | Example of constructors that take parameters |
 | copyConstructor.cpp | Example of a copy constructor for object copying |
 | moveConstructor.cpp | Example of a move constructor for efficient resource transfer |
+| destructor.cpp | Example demonstrating the destructor lifecycle |
 
 ### Lab Work - Practical Exercises
 
@@ -144,4 +186,4 @@ Replace `filename.cpp` with any program filename you want to run.
 - **CITE** (College of Information Technology and Engineering)
 - **Purbanchal University**
 
-> "The journey of a thousand programs begins with a single Hello World."
+> "The journey of a thousand programs begins with a single Hello World!."
