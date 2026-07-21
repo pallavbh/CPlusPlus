@@ -102,9 +102,14 @@ A comprehensive collection of C++ programs and learning materials from the secon
 | Program | Description |
 |---------|-------------|
 | inheritance.cpp | Basic inheritance example |
-| multiLevel_Inheritance.cpp | Example of multilevel inheritance |
-| public_Inheritance.cpp | Example demonstrating public inheritance |
+| inheritance1.cpp | Additional inheritance example |
 | singleInheritance.cpp | Single inheritance example |
+| multiLevel_Inheritance.cpp | Example of multilevel inheritance |
+| multiLevel_Inheritance1.cpp | Additional multilevel inheritance example |
+| multiple_Inheritance.cpp | Example of multiple inheritance (inheriting from multiple base classes) |
+| public_Inheritance.cpp | Example demonstrating public inheritance |
+| hierarchical_Inheritance.cpp | Example of hierarchical inheritance (one base class, multiple derived classes) |
+| hybrid_Inheritance.cpp | Example combining multiple types of inheritance |
 
 ### Operator Overloading
 
