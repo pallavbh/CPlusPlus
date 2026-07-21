@@ -1,6 +1,6 @@
 ﻿# 📘 C++ Programming Repository
 
-A comprehensive collection of C++ programs and learning materials from the second semester coursework. This repository documents the progression through fundamental and intermediate C++ concepts.
+A comprehensive collection of C++ programs and learning materials from the second semester coursework. This repository documents the progression from basic syntax to object-oriented programming, inheritance, and operator overloading.
 
 ## 📁 Repository Structure
 - `Assignment1_LabQuestions/` — lab exercises covering arrays, pointers, constructors, destructors, friends, and object-oriented basics
@@ -8,11 +8,19 @@ A comprehensive collection of C++ programs and learning materials from the secon
 - `Constructor and Destructor/` — constructor and destructor examples
 - `Function/` — function-specific examples, including overloading and inline functions
 - `FunctionVirtual and Polymorphism/` — examples of overriding and runtime polymorphism using virtual functions
-- `Operator Overloading/` — examples demonstrating unary, binary, and constructor-based operator overloading
+- `Inheritance/` — inheritance-based examples and class relationships
 - `Lab Work/` — lab exercise scenarios for practical learning
+- `Operator Overloading/` — examples demonstrating unary, binary, and constructor-based operator overloading
+- `OperatorOverloading.cpp` — standalone operator overloading practice file at the repository root
 - `Others/` — miscellaneous small programs and utility examples
 
 ## 📂 Programs Included
+
+### Root Files
+
+| Program | Description |
+|---------|-------------|
+| OperatorOverloading.cpp | Standalone operator overloading practice file |
 
 ### Assignment1_LabQuestions - Lab Exercises
 
@@ -47,7 +55,7 @@ A comprehensive collection of C++ programs and learning materials from the secon
 ### Class and Objective - OOP Concepts
 
 | Program | Description |
-|------|-------------|
+|---------|-------------|
 | accessingClashMember.cpp | Demonstrates access to class members and basic class usage |
 | accessSpecifierPrivate.cpp | Shows how private members are accessed only within the class |
 | accessSpecifierProtcted.cpp | Explains protected access in inheritance-related scenarios |
@@ -72,7 +80,7 @@ A comprehensive collection of C++ programs and learning materials from the secon
 
 | Program | Description |
 |---------|-------------|
-| defaultArgument.cpp | Functions with default parameter values - parameters have fallback values if not provided |
+| defaultArgument.cpp | Functions with default parameter values |
 | functionOverloading.cpp | Multiple functions with the same name but different parameters |
 | InlineFunction.cpp | Inline functions for optimization |
 | inlinefunction2.cpp | Additional examples and use cases of inline functions |
@@ -84,7 +92,19 @@ A comprehensive collection of C++ programs and learning materials from the secon
 |---------|-------------|
 | functionOverriding.cpp | Example of function overriding in inheritance |
 | functionOverrridingPtr.cpp | Function overriding using pointers |
+| inheritancePolymorphismImplementation.cpp | Demonstrates inheritance and polymorphic behavior |
+| pureVirtualFunction.cpp | Example of a pure virtual function |
+| pureVirtualFunction1.cpp | Additional pure virtual function example |
 | virtualFunctionOverriding.cpp | Demonstrates virtual function overriding and polymorphic behavior |
+
+### Inheritance - OOP Inheritance
+
+| Program | Description |
+|---------|-------------|
+| inheritance.cpp | Basic inheritance example |
+| multiLevel_Inheritance.cpp | Example of multilevel inheritance |
+| public_Inheritance.cpp | Example demonstrating public inheritance |
+| singleInheritance.cpp | Single inheritance example |
 
 ### Operator Overloading
 
@@ -141,6 +161,7 @@ A comprehensive collection of C++ programs and learning materials from the secon
 - **Classes & Objects** - Member functions, scope resolution operator, static members, nested functions, constructors, destructors, and OOP fundamentals
 - **Object Passing** - Pass by value vs. pass by const reference
 - **Access Control** - Private, public, and protected access specifiers; friend classes and functions
+- **Inheritance** - Single, multilevel, and public inheritance examples
 - **Operators** - Arithmetic, bitwise, ternary, and logical operators
 - **The `this` Pointer** - Using the this pointer to reference object instances
 - **Type Conversion** - Converting between different data types and class types
