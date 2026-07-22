@@ -3,16 +3,19 @@
 A comprehensive collection of C++ programs and learning materials from the second semester coursework. This repository documents the progression from basic syntax to object-oriented programming, inheritance, and operator overloading.
 
 ## 📁 Repository Structure
-- `Assignment1_LabQuestions/` — lab exercises covering arrays, pointers, constructors, destructors, friends, and object-oriented basics
-- `Class and Objective/` — object-oriented programming examples and class-based concepts
-- `Constructor and Destructor/` — constructor and destructor examples
-- `Function/` — function-specific examples, including overloading and inline functions
-- `FunctionVirtual and Polymorphism/` — examples of overriding and runtime polymorphism using virtual functions
-- `Inheritance/` — inheritance-based examples and class relationships
-- `Lab Work/` — lab exercise scenarios for practical learning
-- `Operator Overloading/` — examples demonstrating unary, binary, and constructor-based operator overloading
-- `OperatorOverloading.cpp` — standalone operator overloading practice file at the repository root
-- `Others/` — miscellaneous small programs and utility examples
+- [Assignment1_LabQuestions/](Assignment1_LabQuestions/README.md) — lab exercises covering arrays, pointers, constructors, destructors, friends, and object-oriented basics
+- [Class and Objective/](Class%20and%20Objective/README.md) — object-oriented programming examples and class-based concepts
+- [Constructor and Destructor/](Constructor%20and%20Destructor/README.md) — constructor and destructor examples
+- [Function/](Function/README.md) — function-specific examples, including overloading and inline functions
+- [FunctionVirtual and Polymorphism/](FunctionVirtual%20and%20Polymorphism/README.md) — examples of overriding and runtime polymorphism using virtual functions
+- [Inheritance/](Inheritance/README.md) — inheritance-based examples and class relationships
+- [Lab Work/](Lab%20Work/README.md) — lab exercise scenarios for practical learning
+- [Operator Overloading/](Operator%20Overloading/README.md) — examples demonstrating unary, binary, and constructor-based operator overloading
+- [OperatorOverloading.cpp](OperatorOverloading.cpp) — standalone operator overloading practice file at the repository root
+- [Others/](Others/README.md) — miscellaneous small programs and utility examples
+
+## 📚 Folder Guides
+Each folder now has its own index file for quick navigation and topic-based learning.
 
 ## 📂 Programs Included
 
