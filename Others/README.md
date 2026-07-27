@@ -1,6 +1,6 @@
 # Others
 
-This folder contains miscellaneous C++ practice programs and small utilities.
+This folder contains miscellaneous C++ practice programs and small utilities covering basic programming concepts and operations.
 
 ## Files
 
@@ -12,7 +12,7 @@ This folder contains miscellaneous C++ practice programs and small utilities.
 | calculator.cpp | Simple calculator with arithmetic operations |
 | celciustofarenhiet.cpp | Temperature conversion from Celsius to Fahrenheit |
 | ternaryOperator.cpp | Demonstrates the ternary conditional operator |
-| bitWiseOperator.cpp | Examples of bitwise operators |
+| bitWiseOperator.cpp | Examples of bitwise operators and bitwise operations |
 | manipulator.cpp | Output formatting using stream manipulators |
 | ClassTypeToBasicType.cpp | Type conversion between class types and basic data types |
 | primenumberchecking.cpp | Program to check whether a number is prime |
