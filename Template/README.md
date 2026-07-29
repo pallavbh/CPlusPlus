@@ -11,7 +11,8 @@ This folder contains basic C++ template programming examples for learning generi
 | `TemplateOverloading.cpp` | Example of template function overloading with multiple template definitions. |
 | `Example_TemplateOverloading.cpp` | Practical use case showing how template overloading can simplify code. |
 | `TwoParameterTemplate.cpp` | Example of a template function with two type parameters. |
-| `classTemplate.cpp` | Example of a class template demonstrating generic classes. |
+| `classTemplate.cpp` | Example of a class template demonstrating generic classes using a Box wrapper. |
+| `templateClass.cpp` | Example of a class template with two type parameters using key-value pairs. |
 
 ## Purpose
 
