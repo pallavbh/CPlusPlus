@@ -1,37 +1,35 @@
-# Class and Objective
+# Classes and Objects
 
-This folder focuses on fundamental object-oriented programming concepts such as classes, objects, access specifiers, and the this pointer. These are the building blocks of C++ OOP design.
+C++ object-oriented programming examples covering classes, objects, access control, member functions, and `this` pointer usage.
 
 ## Files
 
-| File | Description |
-|---|---|
-| accessingClashMember.cpp | Demonstrates access to class members and basic class usage |
-| accessSpecifierPublic.cpp | Demonstrates public members that are accessible from outside the class |
-| accessSpecifierPrivate.cpp | Shows how private members are accessed only within the class |
-| accessSpecifierProtcted.cpp | Explains protected access in inheritance-related scenarios |
-| functionInsideTheClass.cpp | Member function defined inside the class body |
-| functionOutsideTheClass.cpp | Member function declared inside the class and defined outside |
-| nestingofMemberFunction.cpp | Example of one member function calling another |
-| nestingofMemberFunction2.cpp | Additional nested member function example |
-| arrayofObject.cpp | Example of working with arrays of class objects |
-| thisPointer.cpp | Simple demonstration of the this pointer |
-| exampleThisPointer.cpp | Example program using the this pointer |
-| staticDataMember.cpp | Example of static data members in a class |
-| staticDataMember2.cpp | Another example of static data member usage |
-| staticDataMemberCw.cpp | Coursework-style example on static data members |
-| staticMemberFunction.cpp | Example of static member functions |
-| friendFunction.cpp | Demonstrates friend functions and access control |
-| friendClass.cpp | Demonstrates how friend classes access private members |
-| passingObjectToFunctionPassByValue.cpp | Demonstrates passing objects to functions by value |
-| passingObjectToFunctionPassByConstReference.cpp | Demonstrates passing objects to functions by const reference |
+- `accessingClashMember.cpp` — access class members
+- `accessSpecifierPublic.cpp` — public access
+- `accessSpecifierPrivate.cpp` — private access
+- `accessSpecifierProtcted.cpp` — protected access
+- `functionInsideTheClass.cpp` — member function defined inside class
+- `functionOutsideTheClass.cpp` — member function defined outside class
+- `nestingofMemberFunction.cpp` — nested member function calls
+- `nestingofMemberFunction2.cpp` — another nested member function example
+- `arrayofObject.cpp` — array of class objects
+- `thisPointer.cpp` — `this` pointer demonstration
+- `exampleThisPointer.cpp` — example using `this`
+- `staticDataMember.cpp` — static data member
+- `staticDataMember2.cpp` — static data member usage
+- `staticDataMemberCw.cpp` — static data member coursework example
+- `staticMemberFunction.cpp` — static member function
+- `friendFunction.cpp` — friend function access
+- `friendClass.cpp` — friend class access
+- `passingObjectToFunctionPassByValue.cpp` — pass object by value
+- `passingObjectToFunctionPassByConstReference.cpp` — pass object by const reference
 
-## Concepts Covered
+## Concepts
 
-- Class definition and object instantiation
-- Access specifiers (public, private, protected)
-- Member functions and data members
-- The this pointer and self-reference
-- Static members and static functions
-- Friend functions and friend classes
-- Object passing semantics
+- class definition and object instantiation
+- access specifiers: public, private, protected
+- member functions and data members
+- `this` pointer
+- static members and functions
+- friend functions and classes
+- passing objects to functions

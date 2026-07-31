@@ -1,20 +1,18 @@
-# Function
+# Functions
 
-This folder covers function-related C++ concepts including overloading, default arguments, and inline functions. These features provide flexibility and optimization opportunities in function design.
+This folder covers C++ function concepts such as overloading, default arguments, and inline functions.
 
 ## Files
 
-| File | Description |
-|---|---|
-| defaultArgument.cpp | Functions with default parameter values for convenient function calls |
-| functionOverloading.cpp | Multiple functions with the same name but different parameters or types |
-| InlineFunction.cpp | Inline functions for potential compiler optimization |
-| inlinefunction2.cpp | Additional examples and use cases of inline functions |
-| Q1.cpp | Function practice question or exercise |
+- `defaultArgument.cpp` — functions with default parameter values
+- `functionOverloading.cpp` — functions with the same name but different parameters
+- `InlineFunction.cpp` — inline function examples
+- `inlinefunction2.cpp` — additional inline function examples
+- `Q1.cpp` — function practice exercise
 
-## Concepts Covered
+## Concepts
 
-- Function overloading and parameter matching
-- Default arguments and their restrictions
-- Inline functions and compiler optimization
-- Function design patterns and best practices
+- function overloading
+- default arguments
+- inline functions
+- function design and best practices
