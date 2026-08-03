@@ -11,6 +11,7 @@ This repository contains C++ practice programs organized by topic. Each folder f
 | [Constructor and Destructor](Constructor%20and%20Destructor/README.md) | Examples showing how constructors and destructors work |
 | [Exception Handling](Exception%20Handling/README.md) | Programs demonstrating exception handling, `try`/`catch`, and multiple catch blocks |
 | [Function](Function/README.md) | Programs on function overloading, default arguments, and inline functions |
+| [File Handling](File%20Handling/README.md) | Examples using file streams, text files, and reading/writing file data |
 | [FunctionVirtual and Polymorphism](FunctionVirtual%20and%20Polymorphism/README.md) | Virtual functions and polymorphism examples |
 | [Inheritance](Inheritance/README.md) | Examples of single, multilevel, multiple, and hierarchical inheritance |
 | [Lab Work](Lab%20Work/README.md) | Practical lab exercises and scenario-based programs |
